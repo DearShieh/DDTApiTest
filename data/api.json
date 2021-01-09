@@ -1,0 +1,26 @@
+[
+    {
+        "path": "/api/magicql/dev/manufacturer/search",
+        "method": "post",
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "param_type": "json",
+        "params": {
+            "queryList": {},
+            "page": {
+                "current": 1,
+                "size": 10
+            }
+        },
+        "expect": {
+            "code": "0",
+            "msg": "0",
+            "count": 0
+        },
+        "x_y": [
+            2,
+            12
+        ]
+    }
+]
